@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. V | Medicina de Longevidad de Élite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#" class="logo">DR. V</a>
+      <nav class="nav" id="nav">
+        <a href="#philosophy" class="nav-link" data-es="Filosofía" data-en="Philosophy">Filosofía</a>
+        <a href="#services" class="nav-link" data-es="Servicios" data-en="Services">Servicios</a>
+        <a href="#trust" class="nav-link" data-es="Confianza" data-en="Trust">Confianza</a>
+        <a href="#faq" class="nav-link" data-es="FAQ" data-en="FAQ">FAQ</a>
+        <a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle">EN</button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content fade-in">
+      <h1 class="hero-title" data-es="La Ciencia de la Longevidad" data-en="The Science of Longevity">La Ciencia de la Longevidad</h1>
+      <p class="hero-description" data-es="Medicina personalizada de élite para quienes buscan la excelencia en salud y bienestar." data-en="Elite personalized medicine for those seeking excellence in health and wellness.">Medicina personalizada de élite para quienes buscan la excelencia en salud y bienestar.</p>
+      <a href="#contact" class="btn btn-outline" data-es="Solicitar Consulta Privada" data-en="Request Private Consultation">Solicitar Consulta Privada</a>
+    </div>
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section class="philosophy" id="philosophy">
+    <div class="container">
+      <div class="philosophy-image fade-in">
+        <div class="image-placeholder"></div>
+      </div>
+      <div class="philosophy-content fade-in">
+        <span class="section-label" data-es="Filosofía" data-en="Philosophy">Filosofía</span>
+        <h2 class="section-title" data-es="Un Enfoque Distintivo" data-en="A Distinctive Approach">Un Enfoque Distintivo</h2>
+        <p class="philosophy-text" data-es="En un mundo donde la medicina se ha vuelto impersonal, ofrecemos un santuario de atención individualizada. Cada paciente es único, y su plan de tratamiento debe reflejar esa singularidad." data-en="In a world where medicine has become impersonal, we offer a sanctuary of individualized care. Each patient is unique, and their treatment plan should reflect that singularity.">En un mundo donde la medicina se ha vuelto impersonal, ofrecemos un santuario de atención individualizada. Cada paciente es único, y su plan de tratamiento debe reflejar esa singularidad.</p>
+        <p class="philosophy-text" data-es="Con más de dos décadas de experiencia en medicina de longevidad y un compromiso inquebrantable con la discreción, el Dr. V ha cultivado una práctica donde la ciencia de vanguardia se encuentra con el arte del cuidado personalizado." data-en="With over two decades of experience in longevity medicine and an unwavering commitment to discretion, Dr. V has cultivated a practice where cutting-edge science meets the art of personalized care.">Con más de dos décadas de experiencia en medicina de longevidad y un compromiso inquebrantable con la discreción, el Dr. V ha cultivado una práctica donde la ciencia de vanguardia se encuentra con el arte del cuidado personalizado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title centered" data-es="Servicios Exclusivos" data-en="Exclusive Services">Servicios Exclusivos</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+              <path d="M12 2L12 22M2 12L22 12M6 6L18 18M18 6L6 18"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-es="Medicina Preventiva" data-en="Preventive Medicine">Medicina Preventiva</h3>
+          <p class="service-description" data-es="Evaluaciones exhaustivas y protocolos personalizados para anticipar y prevenir condiciones antes de que se manifiesten." data-en="Comprehensive evaluations and personalized protocols to anticipate and prevent conditions before they manifest.">Evaluaciones exhaustivas y protocolos personalizados para anticipar y prevenir condiciones antes de que se manifiesten.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6V12L16 14"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-es="Genética Avanzada" data-en="Advanced Genetics">Genética Avanzada</h3>
+          <p class="service-description" data-es="Análisis genómico de última generación para comprender su perfil único y optimizar su salud a nivel molecular." data-en="State-of-the-art genomic analysis to understand your unique profile and optimize your health at the molecular level.">Análisis genómico de última generación para comprender su perfil único y optimizar su salud a nivel molecular.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <h3 class="service-title" data-es="Revitalización" data-en="Revitalization">Revitalización</h3>
+          <p class="service-description" data-es="Terapias regenerativas y protocolos de rejuvenecimiento basados en la ciencia más avanzada disponible." data-en="Regenerative therapies and rejuvenation protocols based on the most advanced science available.">Terapias regenerativas y protocolos de rejuvenecimiento basados en la ciencia más avanzada disponible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Section -->
+  <section class="trust" id="trust">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title centered" data-es="Por Qué Elegirnos" data-en="Why Choose Us">Por Qué Elegirnos</h2>
+      </div>
+      <div class="trust-grid">
+        <div class="trust-item fade-in">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="trust-title" data-es="Privacidad Absoluta" data-en="Absolute Privacy">Privacidad Absoluta</h3>
+          <p class="trust-description" data-es="Su información es sagrada. Implementamos los más altos estándares de confidencialidad en cada interacción." data-en="Your information is sacred. We implement the highest standards of confidentiality in every interaction.">Su información es sagrada. Implementamos los más altos estándares de confidencialidad en cada interacción.</p>
+        </div>
+        <div class="trust-item fade-in">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          </div>
+          <h3 class="trust-title" data-es="Excelencia Científica" data-en="Scientific Excellence">Excelencia Científica</h3>
+          <p class="trust-description" data-es="Acceso a investigaciones y tratamientos que definen el futuro de la medicina personalizada." data-en="Access to research and treatments that define the future of personalized medicine.">Acceso a investigaciones y tratamientos que definen el futuro de la medicina personalizada.</p>
+        </div>
+        <div class="trust-item fade-in">
+          <div class="trust-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="trust-title" data-es="Atención a Medida" data-en="Bespoke Care">Atención a Medida</h3>
+          <p class="trust-description" data-es="Cada protocolo es diseñado específicamente para usted, sin compromisos ni soluciones genéricas." data-en="Each protocol is specifically designed for you, without compromises or generic solutions.">Cada protocolo es diseñado específicamente para usted, sin compromisos ni soluciones genéricas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title centered" data-es="Preguntas Frecuentes" data-en="Frequently Asked Questions">Preguntas Frecuentes</h2>
+      </div>
+      <div class="faq-list fade-in">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-es="¿Cómo es el proceso de consulta inicial?" data-en="What is the initial consultation process like?">¿Cómo es el proceso de consulta inicial?</span>
+            <svg class="faq-icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            <svg class="faq-icon-minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p data-es="La consulta inicial es una evaluación exhaustiva de 90 minutos donde exploramos su historial médico, objetivos de salud y estilo de vida. Todo se realiza en un ambiente de absoluta confidencialidad." data-en="The initial consultation is a comprehensive 90-minute evaluation where we explore your medical history, health goals, and lifestyle. Everything is conducted in an environment of absolute confidentiality.">La consulta inicial es una evaluación exhaustiva de 90 minutos donde exploramos su historial médico, objetivos de salud y estilo de vida. Todo se realiza en un ambiente de absoluta confidencialidad.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-es="¿Qué nivel de confidencialidad ofrecen?" data-en="What level of confidentiality do you offer?">¿Qué nivel de confidencialidad ofrecen?</span>
+            <svg class="faq-icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            <svg class="faq-icon-minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p data-es="La discreción es fundamental en nuestra práctica. Todos los registros están protegidos con los más altos estándares de seguridad, y nunca compartimos información sin su consentimiento explícito." data-en="Discretion is fundamental to our practice. All records are protected with the highest security standards, and we never share information without your explicit consent.">La discreción es fundamental en nuestra práctica. Todos los registros están protegidos con los más altos estándares de seguridad, y nunca compartimos información sin su consentimiento explícito.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-es="¿Ofrecen consultas internacionales?" data-en="Do you offer international consultations?">¿Ofrecen consultas internacionales?</span>
+            <svg class="faq-icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            <svg class="faq-icon-minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p data-es="Sí, atendemos a pacientes de todo el mundo. Ofrecemos consultas virtuales seguras y podemos coordinar visitas presenciales en ubicaciones selectas." data-en="Yes, we serve patients from around the world. We offer secure virtual consultations and can coordinate in-person visits at select locations.">Sí, atendemos a pacientes de todo el mundo. Ofrecemos consultas virtuales seguras y podemos coordinar visitas presenciales en ubicaciones selectas.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-es="¿Cuál es la inversión para sus servicios?" data-en="What is the investment for your services?">¿Cuál es la inversión para sus servicios?</span>
+            <svg class="faq-icon-plus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            <svg class="faq-icon-minus" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p data-es="Nuestros programas son personalizados y la inversión varía según sus necesidades específicas. Durante la consulta inicial, presentamos opciones adaptadas a sus objetivos." data-en="Our programs are personalized and the investment varies according to your specific needs. During the initial consultation, we present options tailored to your goals.">Nuestros programas son personalizados y la inversión varía según sus necesidades específicas. Durante la consulta inicial, presentamos opciones adaptadas a sus objetivos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-map fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2702.152659399857!2d8.539552!3d47.376886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a0e4e7b8b67%3A0x8b2c2e3b1c1b1c1b!2sZ%C3%BCrich%2C%20Switzerland!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Location Map"
+        ></iframe>
+      </div>
+      <div class="contact-content fade-in">
+        <span class="section-label" data-es="Contacto" data-en="Contact">Contacto</span>
+        <h2 class="section-title" data-es="Solicitar Consulta Privada" data-en="Request Private Consultation">Solicitar Consulta Privada</h2>
+        <p class="contact-location" data-es="Zúrich, Suiza" data-en="Zurich, Switzerland">Zúrich, Suiza</p>
+        <a href="mailto:contact@drv.ch" class="btn btn-primary">contact@drv.ch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#" class="logo">DR. V</a>
+        <div class="footer-links">
+          <a href="#" data-es="Política de Privacidad" data-en="Privacy Policy">Política de Privacidad</a>
+          <a href="#" data-es="Términos de Servicio" data-en="Terms of Service">Términos de Servicio</a>
+        </div>
+        <p class="footer-copyright">© <span id="currentYear"></span> Dr. V. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
