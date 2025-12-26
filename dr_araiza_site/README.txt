@@ -1,0 +1,1 @@
+Reemplaza tus archivos existentes por estos tres (index.html, styles.css, script.js).
